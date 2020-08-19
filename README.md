@@ -1,3 +1,3 @@
 # React-Dev-Environment
 
-A bootstrap development environment for React
+A 'quick-start' development environment with default configurations for React projects.
