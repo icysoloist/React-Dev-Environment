@@ -1,16 +1,5 @@
 import React from 'react';
 
-/* CSS */
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>It Works! </h1>
-      </header>
-    </div>
-  );
+export default function App() {
+  return <h1>It Works! </h1>;
 }
-
-export default App;
