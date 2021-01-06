@@ -1,18 +1,16 @@
 import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 /* Components */
 import App from './app/App';
 
-/* CSS */
-import './index.css';
-
-/* Libraries */
-import { render } from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+/* Styles */
+import './styles.scss';
 
 render(
   <Router>
     <App />
   </Router>,
-  document.getElementById('app')
+  document.getElementById('app'),
 );

@@ -1,0 +1,36 @@
+/**
+* Classes for font/text transformations
+**/
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.no-decoration {
+  text-decoration: none;
+  list-style: none;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
