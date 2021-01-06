@@ -11,11 +11,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --fix src/**/*.js && stylelint src/**/*.scss"
+    "lint": "eslint --fix src/**/*.js",
+    "lint:styles": "stylelint src/**/*.scss"
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint"
+      "pre-push": "yarn lint && yarn lint:styles && pretty-quick --staged"
     }
   },
   "dependencies": {
