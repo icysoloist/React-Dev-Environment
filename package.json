@@ -16,7 +16,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint && yarn lint:styles"
+      "pre-push": "yarn lint && yarn lint:styles && pretty-quick --staged"
     }
   },
   "dependencies": {
