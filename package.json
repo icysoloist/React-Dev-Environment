@@ -1,7 +1,7 @@
 {
   "name": "react-dev-environment",
   "version": "1.0.0",
-  "description": "A 'quick-start' development environment with default configurations for React projects.",
+  "description": "A pre-configured development environment for React projects.",
   "main": "index.js",
   "author": "Chase Pareti",
   "license": "MIT",
