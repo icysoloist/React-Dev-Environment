@@ -11,11 +11,12 @@ render(
       <Route path="/">
         <div
           style={{ height: '100%' }}
-          className="flex-row center vertical-center">
+          className="flex-row center vertical-center"
+        >
           <h1>The next big thing starts here.</h1>
         </div>
       </Route>
     </Switch>
   </Router>,
-  document.getElementById('app')
+  document.getElementById('app'),
 );

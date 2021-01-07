@@ -4,6 +4,13 @@
     "stylelint-scss"
   ],
   "rules": {
+    "at-rule-empty-line-before": [
+      "always", {
+        "except": ["after-same-name"],
+        "ignore": ["after-comment", "inside-block"]
+      }
+    ],
     "at-rule-no-unknown": null,
+    "block-closing-brace-newline-after": ["always", "ignoreAtRules": ["if", "else"]]
   }
 }

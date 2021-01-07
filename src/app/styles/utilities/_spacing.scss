@@ -48,9 +48,7 @@ $specialProperties: ('', 'x', 'y');
       .pad#{$space} {
         padding: #{$space}px !important;
       }
-    }
-
-    @else if $property == 'x' {
+    } @else if $property == 'x' {
       .mar-x#{$space} {
         margin-left: #{$space}px !important;
         margin-right: #{$space}px !important;
@@ -60,9 +58,7 @@ $specialProperties: ('', 'x', 'y');
         padding-left: #{$space}px !important;
         padding-right: #{$space}px !important;
       }
-    }
-
-    @else if $property == 'y' {
+    } @else if $property == 'y' {
       .mar-y#{$space} {
         margin-top: #{$space}px !important;
         margin-bottom: #{$space}px !important;

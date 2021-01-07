@@ -24,23 +24,17 @@
     -webkit-box-orient: horizontal;
     -moz-box-direction: reverse;
     -moz-box-orient: horizontal;
-  }
-
-  @else if $direction == column {
+  } @else if $direction == column {
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
     -moz-box-direction: normal;
     -moz-box-orient: vertical;
-  }
-
-  @else if $direction == column-reverse {
+  } @else if $direction == column-reverse {
     -webkit-box-direction: reverse;
     -webkit-box-orient: vertical;
     -moz-box-direction: reverse;
     -moz-box-orient: vertical;
-  }
-
-  @else {
+  } @else {
     -webkit-box-direction: normal;
     -webkit-box-orient: horizontal;
     -moz-box-direction: normal;
@@ -59,9 +53,7 @@
 
   @if $value == nowrap {
     -ms-flex-wrap: none;
-  }
-
-  @else {
+  } @else {
     -ms-flex-wrap: $value;
   }
 
@@ -75,25 +67,17 @@
     -webkit-box-pack: start;
     -moz-box-pack: start;
     -ms-flex-pack: start;
-  }
-
-  @else if $value == flex-end {
+  } @else if $value == flex-end {
     -webkit-box-pack: end;
     -moz-box-pack: end;
     -ms-flex-pack: end;
-  }
-
-  @else if $value == space-between {
+  } @else if $value == space-between {
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
     -ms-flex-pack: justify;
-  }
-
-  @else if $value == space-around {
+  } @else if $value == space-around {
     -ms-flex-pack: distribute;
-  }
-
-  @else {
+  } @else {
     -webkit-box-pack: $value;
     -moz-box-pack: $value;
     -ms-flex-pack: $value;
@@ -110,15 +94,11 @@
     -webkit-box-align: start;
     -moz-box-align: start;
     -ms-flex-align: start;
-  }
-
-  @else if $value == flex-end {
+  } @else if $value == flex-end {
     -webkit-box-align: end;
     -moz-box-align: end;
     -ms-flex-align: end;
-  }
-
-  @else {
+  } @else {
     -webkit-box-align: $value;
     -moz-box-align: $value;
     -ms-flex-align: $value;
