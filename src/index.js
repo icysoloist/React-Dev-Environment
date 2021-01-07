@@ -1,16 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-/* Components */
-import App from './app/App';
-
-/* Styles */
+/* Global Styles */
 import './styles.scss';
 
 render(
   <Router>
-    <App />
+    <Switch>
+      <Route path="/">
+        <div
+          style={{ height: '100%' }}
+          className="flex-row center vertical-center">
+          <h1>The next big thing starts here.</h1>
+        </div>
+      </Route>
+    </Switch>
   </Router>,
-  document.getElementById('app'),
+  document.getElementById('app')
 );
